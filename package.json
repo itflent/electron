@@ -1,0 +1,15 @@
+{
+  "name": "electron-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "global": "npm i -g gulp gulp-sass gulp-pug gulp-autoprefixer gulp-pretty-html gulp-rename gulp-clean-css gulp-plumber gulp-imagemin electron@latest",
+
+    "link": "npm ln gulp gulp-sass gulp-pug gulp-autoprefixer gulp-pretty-html gulp-rename gulp-clean-css gulp-plumber gulp-imagemin electron",
+
+    "start": "electron ."
+  },
+  "author": "Korepanovy",
+  "license": "ISC"
+}
